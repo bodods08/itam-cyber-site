@@ -85,33 +85,47 @@
         </div>
     </section>
 
-    <section class="mt-12 bg-red-50 p-8 rounded-xl border border-red-100">
+   <section class="mt-12 bg-red-50 p-8 rounded-xl border border-red-100 shadow-sm">
         <h2 class="text-2xl font-bold mb-6 text-slate-900">Event Highlights</h2>
         <div class="flex flex-wrap gap-4">
-            <span class="bg-white px-4 py-2 rounded-lg shadow-sm text-red-700 font-bold border border-red-200">Hackathons</span>
-            <span class="bg-white px-4 py-2 rounded-lg shadow-sm text-red-700 font-bold border border-red-200">Guest Speakers</span>
-            <span class="bg-white px-4 py-2 rounded-lg shadow-sm text-red-700 font-bold border border-red-200">Workshops</span>
-            <span class="bg-white px-4 py-2 rounded-lg shadow-sm text-red-700 font-bold border border-red-200">Networking</span>
+            <span class="bg-white px-6 py-3 rounded-lg shadow-sm text-red-700 font-bold border border-red-200 hover:bg-red-700 hover:text-white transition-colors cursor-default">Hackathons</span>
+            <span class="bg-white px-6 py-3 rounded-lg shadow-sm text-red-700 font-bold border border-red-200 hover:bg-red-700 hover:text-white transition-colors cursor-default">Guest Speakers</span>
+            <span class="bg-white px-6 py-3 rounded-lg shadow-sm text-red-700 font-bold border border-red-200 hover:bg-red-700 hover:text-white transition-colors cursor-default">Workshops</span>
+            <span class="bg-white px-6 py-3 rounded-lg shadow-sm text-red-700 font-bold border border-red-200 hover:bg-red-700 hover:text-white transition-colors cursor-default">Networking</span>
         </div>
     </section>
 
-    <div class="mt-12 text-center p-8 bg-white border border-dashed border-slate-300 rounded-xl mb-12">
-        <h2 class="text-2xl font-bold mb-4 text-slate-900">How to Join</h2>
-        <p class="text-gray-600 mb-6">Students interested in cybersecurity are welcome to join meetings and club activities.</p>
-        <div class="flex flex-col md:flex-row justify-center gap-8 text-sm">
-            <p><strong>Club President:</strong> <a href="mailto:dyakanoffb@cwu.edu" class="text-red-700 hover:underline">dyakanoffb@cwu.edu</a></p>
-            <p><strong>Advisor:</strong> <a href="mailto:Robert.Lupton@cwu.edu" class="text-red-700 hover:underline">Robert.Lupton@cwu.edu</a></p>
-        </div>
-    </div>
-</main>
-
-    <footer class="bg-slate-900 text-white py-8 px-4 text-center mt-auto">
-        <div class="container mx-auto border-t border-gray-700 pt-6">
-            <p class="space-x-6 text-sm">
-                <span>Contact Information</span> | <span>Quick Links</span> | <span>Accessibility Statement</span>
+    <section class="mt-12 text-center p-10 bg-white border-2 border-dashed border-slate-200 rounded-xl mb-16">
+        <h2 class="text-3xl font-bold mb-4 text-slate-900">How to Join</h2>
+        <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+            Students interested in cybersecurity are welcome to join and participate in meetings and club activities.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-12 text-sm bg-slate-50 p-6 rounded-lg inline-flex mx-auto">
+            <p>
+                <strong class="block text-slate-900 uppercase tracking-wider mb-1">Club President</strong>
+                <a href="mailto:dyakanoffb@cwu.edu" class="text-red-700 hover:underline font-bold text-base">dyakanoffb@cwu.edu</a>
+            </p>
+            <div class="hidden md:block w-px h-10 bg-slate-300"></div>
+            <p>
+                <strong class="block text-slate-900 uppercase tracking-wider mb-1">Faculty Advisor</strong>
+                <a href="mailto:Robert.Lupton@cwu.edu" class="text-red-700 hover:underline font-bold text-base">Robert.Lupton@cwu.edu</a>
             </p>
         </div>
-    </footer>
+    </section>
+</main>
+
+<footer class="bg-slate-900 text-white py-10 px-4 text-center mt-auto">
+    <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-sm opacity-80 mb-6">
+            <a href="#" class="hover:text-red-400">Contact Information</a>
+            <span class="hidden md:inline">|</span>
+            <a href="#" class="hover:text-red-400">Quick Links</a>
+            <span class="hidden md:inline">|</span>
+            <a href="#" class="hover:text-red-400">Accessibility Statement</a>
+        </div>
+        <p class="text-xs opacity-50">&copy; 2026 CWU ITAM Cybersecurity Program. All rights reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>
